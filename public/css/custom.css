@@ -1,0 +1,278 @@
+/**
+ *
+ * You can write your CSS code here, DO NOT touch the default JavaScript file
+ * because it will make it harder for you to update.
+ * 
+ */
+
+/*# sourceMappingURL=custom.css.map */
+
+.card-cetak {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+.card-cetak:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
+.gradient-1 {
+  background-image: linear-gradient(230deg, #0e4cfd, #6a8eff); 
+}
+
+.gradient-2{
+ background-image: linear-gradient(230deg, #759bff, #843cf6);
+}
+
+ .gradient-3 {
+  background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%); 
+}
+
+ .gradient-4 {
+  background-image: linear-gradient(135deg, #e73c64 10%, #ff2600 100%); 
+}
+
+ .gradient-5 {
+  background-image: linear-gradient(135deg, rgb(60, 131, 231) 10%, #5100ff 100%); 
+}
+
+ .gradient-6 {
+  background-image: linear-gradient(135deg, rgb(231, 60, 174) 10%, #ff8000 100%); 
+}
+
+ .gradient-7 {
+  background-image: linear-gradient(135deg, rgb(231, 60, 120) 10%, #ff004c 100%); 
+}
+
+.line {
+        height: 1px;
+        background-color: black;
+        margin: 0;
+        padding: 0;
+    }
+
+.dashed-line {
+            border-top: 1px dashed black;
+            position: relative;
+            margin-top: 17px; /* Jarak atas garis */
+            margin-bottom: 17px; /* Jarak bawah garis */
+}
+
+.scissors {
+    color: black; /* Warna ikon gunting */
+    font-size: 20px; /* Ukuran ikon gunting */
+    margin-right: 10px;
+}
+
+ .tabel {
+    border: 1px solid black; 
+    border-collapse: collapse;
+ }
+ 
+ .tabel1 {
+    border: 1px solid black; 
+    border-collapse: collapse;
+ }
+
+ page[size="A4"] {
+  background: white;
+  width: 21cm;
+  height: 29.7cm;
+  display: block;
+  margin: 0cm auto;
+  margin-bottom: 0.2cm;
+  box-shadow: none;
+}
+
+.page-content {
+  padding: 0;
+}
+
+.small-text {
+  font-family: Arial, sans-serif;
+  font-size: 5pt;
+}
+
+.jadwal-text {
+  font-family: Arial, sans-serif;
+  font-size: 7pt;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.text {
+  position: relative;
+  z-index: 1;
+  font-size: 8pt;
+  font-family: Arial, sans-serif;
+}
+
+/* .ketua-text {
+  font-size: 7pt;
+  font-family: Arial, sans-serif;
+} */
+
+.ketua-text {
+  font-size: 7pt;
+  font-family: Arial, sans-serif;
+  position: relative;
+  line-height: 1;
+  z-index: 1;
+}
+
+.ketua-image-row {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+}
+
+.ketua-image {
+  position: absolute;
+  display: inline-block;
+  margin-top: -55px;
+  margin-left: -25px;
+  z-index: -1;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.custom-checkbox {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+    }
+
+    .custom-checkbox input[type="checkbox"] {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .custom-checkbox .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+        background-color: #f0f0f0;
+        border: 1px solid #e6e6e6;
+        border-radius: 4px;
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkmark {
+        background-color: #3876FB;
+        border: 1px solid #3876FB;
+    }
+
+    .custom-checkbox input[type="checkbox"]:checked + .checkmark:after {
+        content: "\f00c";
+        font-family: FontAwesome;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .custom-checkbox .checkbox-label {
+        margin-left: 15px;
+        font-size: 14px;
+        color: #333;
+        cursor: pointer;
+    }
+
+ /* File: custom-checkbox.css */
+.custom-checkbox {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.custom-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark {
+    background-color: #3876FB;
+    border: 1px solid #3876FB;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + .checkmark:after {
+    content: "\f00c";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 14px;
+}
+
+.custom-checkbox .checkbox-label {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+@media print {
+  table {
+        page-break-inside: avoid;
+    }
+  body {
+    margin: 0mm;
+}
+
+@page {
+  size: A4;
+  margin: 0.5cm 0.5cm 0.5cm 1.5cm;
+}
+
+
+}
